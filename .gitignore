@@ -1,0 +1,18 @@
+# Maven build artifacts
+backend/target/
+*.class
+
+# Node / Frontend artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+
+# IDE & Editor files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db

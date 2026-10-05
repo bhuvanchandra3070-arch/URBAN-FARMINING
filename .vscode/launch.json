@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot - KnowledgeHubApplication",
+      "request": "launch",
+      "mainClass": "com.urbanfarm.KnowledgeHubApplication",
+      "projectName": "knowledge-hub"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against Frontend",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/frontend/src"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against Backend API",
+      "url": "http://localhost:8080/h2-console",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
