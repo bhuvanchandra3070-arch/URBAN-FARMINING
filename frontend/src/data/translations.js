@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    brand: "CommonGround",
+    brand: "GREEN CITY HUB",
     tagline: "Urban Farming Community Knowledge Hub",
     nav: {
       dashboard: "Dashboard",
@@ -11,8 +11,7 @@ export const translations = {
       pests: "Pest Doctor",
       calendar: "Crop Calendar",
       tutorials: "Tutorials",
-      gallery: "Community Gallery",
-      codeStudio: "Code Studio"
+      gallery: "Community Gallery"
     },
     hero: {
       eyebrow: "YOUR LOCALIZED URBAN GROWING GUIDE",
@@ -49,7 +48,7 @@ export const translations = {
     }
   },
   te: {
-    brand: "కామన్ గ్రౌండ్",
+    brand: "GREEN CITY HUB",
     tagline: "పట్టణ వ్యవసాయ విజ్ఞాన వేదిక",
     nav: {
       dashboard: "డాష్‌బోర్డ్",
@@ -60,8 +59,7 @@ export const translations = {
       pests: "చీడపీడల నివారణ",
       calendar: "పంటల క్యాలెండర్",
       tutorials: "ట్యుటోరియల్స్",
-      gallery: "కమ్యూనిటీ గ్యాలరీ",
-      codeStudio: "కోడ్ స్టూడియో"
+      gallery: "కమ్యూనిటీ గ్యాలరీ"
     },
     hero: {
       eyebrow: "మీ పట్టణ వ్యవసాయ మార్గదర్శి",

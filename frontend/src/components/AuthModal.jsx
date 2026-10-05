@@ -104,7 +104,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess, apiUrl }) {
 
         <div className="modal-brand">
           <span className="brand-mark"><Sprout size={20} /></span>
-          <h3>{isRegister ? "Join CommonGround Community" : "Welcome Back, Urban Grower"}</h3>
+          <h3>{isRegister ? "Join GREEN CITY HUB Community" : "Welcome Back, Urban Grower"}</h3>
           <p className="modal-sub">
             {isRegister
               ? "Create your account to save personalized growing guides and share harvests."

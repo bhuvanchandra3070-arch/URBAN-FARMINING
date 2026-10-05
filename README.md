@@ -101,22 +101,20 @@ Urban Farming Community Knowledge Hub/
 │   ├── vite.config.js               # Port 5173 and /api proxy configuration
 │   └── src/
 │       ├── main.jsx                 # React root mount
-│       ├── App.jsx                  # Main interface connecting all 10 tabs & REST APIs
+│       ├── App.jsx                  # Main interface connecting all feature tabs & REST APIs
 │       ├── styles.css               # Modern glassmorphism, ambient gradients & dark mode tokens
 │       ├── components/
-│       │   ├── GlobalSearch.jsx     # Live dropdown search across all 10 modules
+│       │   ├── GlobalSearch.jsx     # Live dropdown search across all modules
 │       │   ├── AuthModal.jsx        # Login & Register modal with 1-click demo accounts
 │       │   ├── Calculators.jsx      # Potting mix, drip timer, and neem spray calculators
 │       │   ├── TerraceEngineering.jsx # Structural load, beam distribution & waterproofing
-│       │   ├── Hydroponics.jsx      # Kratky bucket & NFT vertical systems
-│       │   └── CodeStudio.jsx       # Spring Boot, MySQL DDL & Android XML code inspector
+│       │   └── Hydroponics.jsx      # Kratky bucket & NFT vertical systems
 │       └── data/
 │           ├── translations.js      # English and Telugu (తెలుగు) dictionaries
 │           ├── cropsData.js         # Container crops catalog & companion planting
 │           ├── pestsData.js         # Pest doctor & bio-remedy guide
 │           ├── calendarData.js      # 12-Month sowing/harvesting matrix
-│           ├── tutorialsData.js     # Step-by-step garden blueprints with progress tracking
-│           └── codeStudioData.js    # Spring Boot controllers, entities, schema, Android XML
+│           └── tutorialsData.js     # Step-by-step garden blueprints with progress tracking
 ├── .gitignore
 └── README.md
 ```

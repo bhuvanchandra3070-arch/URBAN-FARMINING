@@ -1,5 +1,5 @@
 @echo off
-title CommonGround - Urban Farming Knowledge Hub Launcher
+title GREEN CITY HUB - Urban Farming Knowledge Hub Launcher
 color 0A
 
 echo ========================================================

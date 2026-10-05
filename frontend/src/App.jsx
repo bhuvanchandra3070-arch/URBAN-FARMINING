@@ -20,7 +20,6 @@ import {
   Building2,
   Calendar,
   Camera,
-  Code2,
   Languages,
   Moon,
   Heart,
@@ -39,7 +38,6 @@ import { tutorialsData } from "./data/tutorialsData";
 import Calculators from "./components/Calculators";
 import TerraceEngineering from "./components/TerraceEngineering";
 import Hydroponics from "./components/Hydroponics";
-import CodeStudio from "./components/CodeStudio";
 import AuthModal from "./components/AuthModal";
 import GlobalSearch from "./components/GlobalSearch";
 
@@ -417,12 +415,6 @@ export default function App() {
           onClick={() => setActiveTab("gallery")}
         >
           <Camera size={15} /> {t.nav.gallery}
-        </button>
-        <button
-          className={`tab-link ${activeTab === "codeStudio" ? "active" : ""}`}
-          onClick={() => setActiveTab("codeStudio")}
-        >
-          <Code2 size={15} /> {t.nav.codeStudio}
         </button>
       </div>
 
@@ -1167,13 +1159,6 @@ export default function App() {
               ))}
             </div>
           )}
-        </section>
-      )}
-
-      {/* TAB 10: CODE STUDIO */}
-      {activeTab === "codeStudio" && (
-        <section className="work-area">
-          <CodeStudio />
         </section>
       )}
 
