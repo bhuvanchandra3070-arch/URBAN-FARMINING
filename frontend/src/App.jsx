@@ -459,17 +459,30 @@ export default function App() {
               </div>
             </div>
 
-            <div className="hero-art" aria-label="Illustration of a small garden">
-              <div className="sun-disc" />
-              <div className="cloud cloud-one" />
-              <div className="cloud cloud-two" />
-              <div className="hill hill-back" />
-              <div className="hill hill-front" />
-              <div className="plant plant-a"><i /><i /><i /><b /></div>
-              <div className="plant plant-b"><i /><i /><i /><b /></div>
-              <div className="plant plant-c"><i /><i /><b /></div>
-              <div className="garden-box"><div /></div>
-              <span className="art-caption">small space, fresh start</span>
+            <div className="hero-showcase" aria-label="Seedling planting showcase">
+              <div className="hero-floating-glass">
+                <div className="floating-badge">
+                  <span className="live-dot" /> SOIL & SEEDLING SPOTLIGHT
+                </div>
+                <div className="floating-title">Microclimate Rooting Zone</div>
+                <div className="floating-stats-row">
+                  <div className="stat-chip">
+                    <span className="chip-label">Soil Condition</span>
+                    <strong className="chip-val">Rich Humus + Cocopeat</strong>
+                  </div>
+                  <div className="stat-chip">
+                    <span className="chip-label">Moisture</span>
+                    <strong className="chip-val">65% Root Depth</strong>
+                  </div>
+                  <div className="stat-chip">
+                    <span className="chip-label">Sunlight</span>
+                    <strong className="chip-val">Direct Morning Sun</strong>
+                  </div>
+                </div>
+                <div className="floating-caption">
+                  🌱 <em>"Nurturing tender roots today feeds resilient harvests tomorrow."</em>
+                </div>
+              </div>
             </div>
           </section>
 
