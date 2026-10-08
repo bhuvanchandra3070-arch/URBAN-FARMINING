@@ -16,3 +16,4 @@ frontend/.vite/
 .settings/
 .DS_Store
 Thumbs.db
+frontend/oracleJdk-27/
