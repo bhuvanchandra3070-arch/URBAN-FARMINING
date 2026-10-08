@@ -856,7 +856,15 @@ export default function App() {
             {filteredCrops.map(crop => (
               <div className="crop-card" key={crop.id}>
                 <div className="crop-img-wrap">
-                  <img src={crop.image} alt={crop.name} loading="lazy" />
+                  <img
+                    src={crop.image}
+                    alt={crop.name}
+                    loading="lazy"
+                    onError={(event) => {
+                      event.currentTarget.onerror = null;
+                      event.currentTarget.src = "/images/ripe-tomatoes.webp";
+                    }}
+                  />
                   <span className="crop-type-tag">{crop.type}</span>
                 </div>
                 <div className="crop-body">
@@ -1137,7 +1145,16 @@ export default function App() {
             <div className="gallery-grid">
               {gallery.map(post => (
                 <div className="gallery-card" key={post.id}>
-                  <img src={post.imageUrl} alt={post.cropTitle} className="gallery-img" loading="lazy" />
+                  <img
+                    src={post.imageUrl}
+                    alt={post.cropTitle}
+                    className="gallery-img"
+                    loading="lazy"
+                    onError={(event) => {
+                      event.currentTarget.onerror = null;
+                      event.currentTarget.src = "/images/ripe-tomatoes.webp";
+                    }}
+                  />
                   <div className="gallery-body">
                     <div className="gallery-top">
                       <span className="gallery-crop">{post.cropTitle}</span>

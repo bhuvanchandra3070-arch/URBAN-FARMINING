@@ -8,7 +8,7 @@ A full-stack web application designed for urban agriculturists, community garden
 
 | Requirement | Implementation Details | Status |
 | :--- | :--- | :---: |
-| **Java 17+ & Spring Boot 3** | Java 17, Spring Boot 3.4.4, Spring MVC, Spring Data JPA | ✅ Implemented |
+| **Java 25+ & Spring Boot 3** | Java 25, Spring Boot 3.5.16, Spring MVC, Spring Data JPA | ✅ Implemented |
 | **React Frontend** | React 18, Vite 5, Lucide React icons, Responsive CSS | ✅ Implemented |
 | **REST APIs** | `/api/recommendations` (POST, GET, search query GET) | ✅ Implemented |
 | **Database Persistence** | JPA/Hibernate, auto-schema generation, H2 dev + MySQL ready | ✅ Implemented |
